@@ -8,11 +8,11 @@ body {
    background-color: #ececec;
    color: #87959b;
 
-   height: 100%;
+   margin-bottom: 70px;
 }
 
 #logo {
-   margin-top: 200px;
+   margin-top: 50px;
 }
 
 #social {
@@ -23,7 +23,8 @@ body {
    width: 100%;
    height: 400px;
    background-color: grey;
-   margin-top: 100px;
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
 
 #mapheading {
