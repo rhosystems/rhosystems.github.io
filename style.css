@@ -5,31 +5,18 @@ html {
 
 body {
    font-family: "Helvetica";
-   background-color: #ececec;
+   background-color: #ffffff;
    color: #87959b;
-
    margin-bottom: 70px;
 }
 
 #logo {
-   margin-top: 50px;
-   margin-bottom: 30px;
+   margin-top: 150px;
+   margin-bottom: 100px;
 }
 
 #social {
    margin-left: 10px;
-}
-
-#map {
-   width: 100%;
-   height: 400px;
-   background-color: grey;
-   margin-top: 50px;
-   margin-bottom: 50px;
-}
-
-#mapheading {
-   font-size: 18px;
 }
 
 .footer {
@@ -55,8 +42,4 @@ body {
 a, a:link, a:visited, a:active, a:hover {
    color: #87959b;
    text-decoration: underline;
-}
-
-.hiring {
-   text-decoration: none !important;
 }

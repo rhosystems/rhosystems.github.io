@@ -26,11 +26,13 @@
      <div class="container">
       <img id="logo" alt="Rho Systems Logo" src="images/rho.png" width="680px">
 
-      <h1 class="text-center" >
-         <a href="https://www.itjobs.pt/empresa/rho-systems#jobs" class="hiring">We're Hiring!</a>
+      <h1 class="text-center">
+         We are building a great website...
       </h1>
 
-      <div id="map"></div>
+      <h1 class="text-center">
+         In the meantime, <a href="https://www.itjobs.pt/empresa/rho-systems#jobs" class="hiring">join the team</a>!
+      </h1>
     </div>
 
      <footer class="footer">
@@ -55,40 +57,5 @@
       ga('create', 'UA-80662326-1', 'auto');
       ga('send', 'pageview');
     </script>
-
-    <script>
-      function initMap() {
-        var mapDiv = document.getElementById('map');
-        var latLng = {lat: 40.580212, lng: -8.581821};
-
-        var map = new google.maps.Map(mapDiv, {
-          center: latLng,
-          zoom: 13
-        });
-
-        var contentString = '<div id="content">'+
-            '<h1 id="mapHeading">Rho Systems, Lda</h1>'+
-            '<div id="bodyContent">'+
-            '<b>Aveiro Business Center</b><br/>'+
-            'Rua da Igreja, nº79'
-            '</div>'+
-            '</div>';
-
-        var infowindow = new google.maps.InfoWindow({
-          content: contentString
-        });
-
-        var marker = new google.maps.Marker({
-          position: latLng,
-          map: map,
-          title: 'Rho Systems'
-        });
-
-        marker.addListener('click', function() {
-          infowindow.open(map, marker);
-        });
-      }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwf0ZAjweqJgwOhIbSxpYlNU1529NNpxc&callback=initMap"></script>
   </body>
 </html>
